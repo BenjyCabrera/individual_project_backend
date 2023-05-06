@@ -1,0 +1,29 @@
+{
+    "usuarios": [
+        {
+            "name": "Juan Pérez",
+            "email": "juan.perez@example.com",
+            "password": "abc123"
+        },
+        {
+            "name": "María García",
+            "email": "maria.garcia@example.com",
+            "password": "abc123"
+        },
+        {
+            "name": "Pedro López",
+            "email": "pedro.lopez@example.com",
+            "password": "abc123"
+        },
+        {
+            "name": "Ana Martínez",
+            "email": "ana.martinez@example.com",
+            "password": "abc123"
+        },
+        {
+            "name": "Luisa Gutiérrez",
+            "email": "luisa.gutierrez@example.com",
+            "password": "abc123"
+        }
+    ]
+}

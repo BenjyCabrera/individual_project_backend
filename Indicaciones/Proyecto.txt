@@ -1,0 +1,25 @@
+Usuarios {Registro,Login}
+Grupo/Género
+Canciones
+
+Crud entre los dos(Endpoint en :
+
+Grupo favorito
+Canción Favorita 
+Obtener lista a partir de canciones/grupos favoritos
+
+cosas que pueda hacer el usuario...)
+
+Esquemas
+Acciones
+Endpoints
+
+Post 
+Put
+Get
+
+Registro/lOGIN/aUTORIZACIÓN
+
+bycript
+
+JWT

@@ -1,0 +1,89 @@
+{
+  "grupos": [
+    {
+      "nombre": "The Beatles",
+      "canciones": [
+        {
+          "titulo": "Hey Jude",
+          "artista": "The Beatles"
+        },
+        {
+          "titulo": "Let It Be",
+          "artista": "The Beatles"
+        },
+        {
+          "titulo": "Yesterday",
+          "artista": "The Beatles"
+        }
+      ]
+    },
+    {
+      "nombre": "Queen",
+      "canciones": [
+        {
+          "titulo": "Bohemian Rhapsody",
+          "artista": "Queen"
+        },
+        {
+          "titulo": "We Will Rock You",
+          "artista": "Queen"
+        },
+        {
+          "titulo": "Somebody to Love",
+          "artista": "Queen"
+        }
+      ]
+    },
+    {
+      "nombre": "The Rolling Stones",
+      "canciones": [
+        {
+          "titulo": "(I Can't Get No) Satisfaction",
+          "artista": "The Rolling Stones"
+        },
+        {
+          "titulo": "Paint It Black",
+          "artista": "The Rolling Stones"
+        },
+        {
+          "titulo": "Sympathy for the Devil",
+          "artista": "The Rolling Stones"
+        }
+      ]
+    },
+    {
+      "nombre": "Led Zeppelin",
+      "canciones": [
+        {
+          "titulo": "Stairway to Heaven",
+          "artista": "Led Zeppelin"
+        },
+        {
+          "titulo": "Kashmir",
+          "artista": "Led Zeppelin"
+        },
+        {
+          "titulo": "Whole Lotta Love",
+          "artista": "Led Zeppelin"
+        }
+      ]
+    },
+    {
+      "nombre": "Pink Floyd",
+      "canciones": [
+        {
+          "titulo": "Comfortably Numb",
+          "artista": "Pink Floyd"
+        },
+        {
+          "titulo": "Wish You Were Here",
+          "artista": "Pink Floyd"
+        },
+        {
+          "titulo": "Another Brick in the Wall (Part II)",
+          "artista": "Pink Floyd"
+        }
+      ]
+    }
+  ]
+}

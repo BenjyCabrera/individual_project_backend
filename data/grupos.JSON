@@ -1,0 +1,29 @@
+{
+    "grupes": [
+        {
+            "name": "The Beatles",
+            "song": "Hey Jude",
+            "time": "7:11"
+        },
+        {
+            "name": "Led Zeppelin",
+            "song": "Stairway to Heaven",
+            "time": "8:02"
+        },
+        {
+            "name": "Pink Floyd",
+            "song": "Comfortably Numb",
+            "time": "6:49"
+        },
+        {
+            "name": "Queen",
+            "song": "Bohemian Rhapsody",
+            "time": "5:55"
+        },
+        {
+            "name": "The Rolling Stones",
+            "song": "(I Can't Get No) Satisfaction",
+            "time": "3:44"
+        }
+    ]
+}
