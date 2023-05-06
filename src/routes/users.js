@@ -2,9 +2,11 @@ const { Router } = require('express')
 
 const bcrypt = require('bcrypt')
 const User = require('../models/user')
-// const jwt = require ('jsonwebtoken')
+const jwt = require ('jsonwebtoken')
 
 const router = Router()
+
+////////POST SIGNUP////////
 
 router.post('/signup', async (req, res) => {
   const { password: passwordPlainText, ...rest } = req.body
@@ -16,9 +18,23 @@ router.post('/signup', async (req, res) => {
 
   res.json(newUser)
 
-  // const token = newUser.generateJWT()
+  const token = newUser.generateJWT()
 
-  // res.setHeader('x-auth-token', token).json(newUser)
+  res.setHeader('x-auth-token', token).json(newUser)
+})
+
+////////POST SIGNIN////////
+
+router.post('/signin', async (req, res) => {
+  const { name, password: passwordPlainText} = req.body
+
+  const user = await User.findOne({ name })
+
+  const isUser = await bcrypt.compare(passwordPlainText, user.password)
+
+  const token = user.generateJWT()
+
+  res.setHeader('x-auth-token', token).send('Success')
 })
 
 module.exports = router
