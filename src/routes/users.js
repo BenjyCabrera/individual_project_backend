@@ -37,4 +37,25 @@ router.post('/signin', async (req, res) => {
   res.setHeader('x-auth-token', token).send('Success')
 })
 
+////////POST ////////
+
+router.post('/add-favorite-song', async (req, res) => {
+  const { userId, favoriteSongId} = req.body;
+
+  try {
+    const updatedUser = await User.findByIdAndUpdate(
+      userId,
+      { $addToSet: { favoriteSongUser: favoriteSongId } },
+      { new: true }
+    );
+    
+    res.json(updatedUser);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Error al agregar la canción favorita' });
+  }
+});
+
+module.exports = router;
+
 module.exports = router

@@ -1,9 +1,9 @@
 const mongoose = require ('mongoose')
 
 const grupoSchema = new mongoose.Schema({
-  nombre: String,
-  cancion: String,
-  duracion: String
+  name: {type: String, required: true},
+  song: {type: String, required: true},
+  time: String
 })
 
 const Band = mongoose.model('Band', grupoSchema)

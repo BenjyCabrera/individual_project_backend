@@ -9,6 +9,7 @@ const usuarioSchema = new mongoose.Schema({
   email: String,
   password: { type: String, required: true },
   isAdmin: Boolean,
+  favoriteSongUser: [{type: mongoose.Schema.Types.ObjectId, ref: 'Song'}]
 })
 
 usuarioSchema.methods.generateJWT = function () {
@@ -18,6 +19,6 @@ usuarioSchema.methods.generateJWT = function () {
   )
 }
 
-const User = mongoose.model('user', usuarioSchema)
+const User = mongoose.model('User', usuarioSchema)
 
 module.exports = User
